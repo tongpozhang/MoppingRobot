@@ -16,7 +16,10 @@ Click here to see our [content page](https://github.com/tongpozhang/MoppingRobot
  [![image2](image/t.jpeg)](http://twitter.com/TongpoZhang) 
  [![image3](image/u=2525879952,2358184690&fm=58&bpow=1024&bpoh=1024.jpeg)](http://www.instagram.com/moprobot)
 
-# Watch our Demo
+# Watch Our Demo
+
+# Future Work
+In the future, we hope to find more efficient algorithms to implement the functions of mopping robots. Save time and improve efficiency by optimizing algorithms and path selection. And, we also hope to optimize the appearance of the mopping robot to attract more users.   
 
 # Team Members
 Tongpo Zhang<br>
