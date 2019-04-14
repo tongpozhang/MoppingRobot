@@ -6,13 +6,14 @@ Today, smart home has become the trend of the times. The emergence of smart home
 There are two working modes for the mopping robot: manual mode and automatic mode. There is an interface which enables users to choose a mode. The automatic mode makes the mopping robot be able to avoid obstacles automatically. The obstacles are located by an algorithm, and the path when the floor is mopped is random, covering as much as possible to all areas (the area may be cleaned repeatedly). The other mode is the manual control mode. In this mode, the user can control the advancement by pushing buttons on the GUI interface which are forward, backward, left turn, right turn and stop.<br>     
 The desigined mopping robot aims at not only freeing people's hands, but also making people's lives more convenient.<br>      
 
-# [Content](https://github.com/tongpozhang/MoppingRobot/wiki)
+# Content
+click here to see our [content page](https://github.com/tongpozhang/MoppingRobot/wiki).
 
 # Social Media Links
  [![image2](image/t.jpeg)](http://twitter.com/TongpoZhang) 
  [![image3](image/u=2525879952,2358184690&fm=58&bpow=1024&bpoh=1024.jpeg)](http://www.instagram.com/moprobot)
 
-# [Watch our Demo]
+# Watch our Demo
 
 # Team Members
 Tongpo Zhang
