@@ -10,7 +10,7 @@ The desigined mopping robot aims at not only freeing people's hands, but also ma
 Click here to see our [content page](https://github.com/tongpozhang/MoppingRobot/wiki).
 
 # Social Media Links
- [![image2](image/t.jpeg)](http://twitter.com/TongpoZhang) 
+ [![image2](image/t.jpeg)](http://twitter.com/TongpoZhang)  
  [![image3](image/u=2525879952,2358184690&fm=58&bpow=1024&bpoh=1024.jpeg)](http://www.instagram.com/moprobot)
 
 # Watch our Demo
