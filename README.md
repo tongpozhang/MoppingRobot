@@ -7,7 +7,7 @@ There are two working modes for the mopping robot: manual mode and automatic mod
 The desigined mopping robot aims at not only freeing people's hands, but also making people's lives more convenient.<br>      
 
 # Content
-click here to see our [content page](https://github.com/tongpozhang/MoppingRobot/wiki).
+Click here to see our [content page](https://github.com/tongpozhang/MoppingRobot/wiki).
 
 # Social Media Links
  [![image2](image/t.jpeg)](http://twitter.com/TongpoZhang) 
