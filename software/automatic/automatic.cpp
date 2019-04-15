@@ -76,35 +76,35 @@ void automatic::on_StartA_clicked()
                     pinMode (motor[i],OUTPUT);
                     digitalWrite(motor[i],LOW);
                     }
-//                for(;;){
+                for(;;){
                         while(1){
                         dis1=disMeasure();
                         float distance2=dis1;
 //                        printf("%f \n",distance2);
 //                        printf("distance1=%0.2f cm\n",dis1);
                         delay(1000);
-//                        if(distance2<rDis){
-//                            digitalWrite(left1,HIGH);
-//                            digitalWrite(right1,LOW);
-//                            digitalWrite(left2,LOW);
-//                            digitalWrite(right2,LOW);
-//                            delay(1000);
-//                            rCount=rCount+1;
-//                            if(rCount==3){
-//                                rCount=0;
-//                                rDis=rDis+25;
-//                                if(rDis>100){
-//                                    rDis=rand()%(19-5+1)+5;
-//                                    }
-//                                }
-//                            printf("%d \n",rCount);
-//                            printf("%d \n",rDis);
-//                            }else if(distance2>rDis){
-//                            digitalWrite(left1,LOW);
-//                            digitalWrite(left2,HIGH);
-//                            digitalWrite(right1,HIGH);
-//                            digitalWrite(right2,LOW);
-//                                }
+                        if(distance2<rDis){
+                            digitalWrite(left1,HIGH);
+                            digitalWrite(right1,LOW);
+                            digitalWrite(left2,LOW);
+                            digitalWrite(right2,LOW);
+                            delay(1000);
+                            rCount=rCount+1;
+                            if(rCount==3){
+                                rCount=0;
+                                rDis=rDis+25;
+                                if(rDis>100){
+                                    rDis=rand()%(19-5+1)+5;
+                                    }
+                                }
+                            printf("%d \n",rCount);
+                            printf("%d \n",rDis);
+                            }else if(distance2>rDis){
+                            digitalWrite(left1,LOW);
+                            digitalWrite(left2,HIGH);
+                            digitalWrite(right1,HIGH);
+                            digitalWrite(right2,LOW);
+                               }
                         }
-//            }
+            }
 }
