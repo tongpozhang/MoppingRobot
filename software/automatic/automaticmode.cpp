@@ -169,15 +169,22 @@ void* automatic(void* args)
 					float distance2=dis1;
 					printf("%f \n",distance2);
 					printf("distance1=%0.2f cm\n",dis1);
-					delay(1000);
+					delay(10);
 					if(distance2<rDis){
+						digitalWrite(enable1,HIGH);
+						digitalWrite(enable2,HIGH);
+						digitalWrite(input1,LOW);
+						digitalWrite(input2,LOW);
+						digitalWrite(input3,LOW);
+						digitalWrite(input4,LOW);
+						delay(300);
 						digitalWrite(enable1,HIGH);
 						digitalWrite(enable2,HIGH);
 						digitalWrite(input1,LOW);
 						digitalWrite(input2,LOW);
 						digitalWrite(input3,HIGH);
 						digitalWrite(input4,LOW);
-						delay(1000);
+						delay(300);
 						rCount=rCount+1;
 						if(rCount==3){
 							rCount=0;
